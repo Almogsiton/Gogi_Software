@@ -32,11 +32,11 @@
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+    border-radius: var(--radius-card);
     border: 2px solid var(--brand-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .about-content h2 {
