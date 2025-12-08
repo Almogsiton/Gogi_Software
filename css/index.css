@@ -1,0 +1,126 @@
+/* Home Page Specific Styles */
+
+/* Hero Section */
+.hero {
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+    background: linear-gradient(to right, var(--text-main), var(--text-muted));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Products Section */
+.products-section {
+    padding: var(--spacing-xl) 0;
+}
+
+/* Product Spotlight (CiderBridge) */
+.product-spotlight {
+    background-color: var(--bg-card);
+    border-radius: var(--radius-card);
+    padding: var(--spacing-xl);
+    overflow: hidden;
+}
+
+.spotlight-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.spotlight-icon {
+    width: 128px;
+    height: 128px;
+    margin-bottom: var(--spacing-md);
+}
+
+.spotlight-title {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.spotlight-subtitle {
+    color: var(--brand-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.spotlight-description {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.spotlight-actions {
+    margin-top: var(--spacing-lg);
+}
+
+.spotlight-meta {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: var(--spacing-sm);
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+.features-column h4 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--brand-color);
+    display: inline-block;
+}
+
+.features-column p {
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-lg);
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-item {
+    margin-bottom: var(--spacing-md);
+}
+
+.feature-item strong {
+    color: var(--text-main);
+}
+
+.feature-item span,
+.system-requirements li {
+    color: var(--text-muted);
+}
+
+.system-requirements li {
+    margin-bottom: 8px;
+}

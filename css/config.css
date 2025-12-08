@@ -1,0 +1,38 @@
+/* 
+ * Gogi Software Design System 
+ * Source of Truth for all design tokens
+ */
+
+:root {
+  /* ============================ */
+  /* Palette: Gogi Dark Mode      */
+  /* ============================ */
+  --bg-primary: #0f172a;   /* Deep dark blue/gray */
+  --bg-card:    #1e293b;   /* Slightly lighter for cards */
+  --text-main:  #f8fafc;   /* White/Off-white */
+  --text-muted: #94a3b8;   /* Light gray */
+  --brand-color:#8b5cf6;   /* Electric Purple */
+
+  /* ============================ */
+  /* Dimensions                   */
+  /* ============================ */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+  
+  --radius-card: 12px;
+  --radius-btn:  8px;
+  
+  --container-width: 1200px;
+  
+  /* ============================ */
+  /* Fonts                        */
+  /* ============================ */
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* ============================ */
+  /* Transitions                  */
+  /* ============================ */
+  --transition-fast: 0.2s ease;
+}
