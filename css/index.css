@@ -44,7 +44,9 @@
     border-radius: var(--radius-card);
     padding: var(--spacing-xl);
     overflow: hidden;
+    margin-bottom: var(--spacing-xl);
 }
+
 
 .spotlight-header {
     text-align: center;
