@@ -13,6 +13,12 @@
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 body {
     background-color: var(--bg-primary);
     color: var(--text-main);
@@ -115,8 +121,23 @@ footer {
 /* Responsiveness               */
 /* ============================ */
 @media (max-width: 768px) {
+    .nav-wrapper {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
     .nav-links {
-        display: none;
-        /* Simplification for now, or stack them */
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        text-align: center;
+        width: 100%;
+        padding-top: var(--spacing-sm);
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-links a {
+        display: block;
+        padding: var(--spacing-sm) 0;
     }
 }

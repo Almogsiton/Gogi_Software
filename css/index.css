@@ -126,3 +126,23 @@
 .system-requirements li {
     margin-bottom: 8px;
 }
+
+@media (max-width: 768px) {
+    .product-spotlight {
+        padding: var(--spacing-md);
+    }
+
+    .features-grid {
+        gap: var(--spacing-lg);
+        grid-template-columns: 1fr;
+        /* Force stack on mobile */
+    }
+
+    .spotlight-title {
+        font-size: 2rem;
+    }
+
+    .spotlight-description {
+        font-size: 1rem;
+    }
+}
